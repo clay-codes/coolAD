@@ -181,7 +181,7 @@ func CleanupCloud() {
 	if err := os.Remove("ad-output.txt"); err != nil {
 		fmt.Printf("output file may not exist: %v\n", err)
 	}
-	if err := os.Remove("awsResources.txt"); err != nil {
+	if err := os.Remove("aws-resources.txt"); err != nil {
 		fmt.Printf("output file may not exist: %v\n", err)
 	}
 	if err := os.Remove("ad-output.txt"); err != nil {
